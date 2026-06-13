@@ -10,7 +10,6 @@ public abstract class FormaPagamento {
 
     public double processarPagamento(double valorVenda){
         return 0;
-        //implementar depois
     }
 
     public double getValorAdicional (){

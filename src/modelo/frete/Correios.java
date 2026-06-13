@@ -1,10 +1,14 @@
 package modelo.frete;
 
 public class Correios implements IFrete {
-
+    private String nome  = "Correios";
 
     public String getNome() {
-        return "Correios";
+        return this.nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
     }
 
     public double calcularFrete(double valorVenda) {
